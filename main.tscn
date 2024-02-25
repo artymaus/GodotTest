@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqpi1ald1ky0b"]
+
+[ext_resource type="Texture2D" uid="uid://cbsq28whpooks" path="res://assets/textures/target.png" id="1_wkngo"]
+[ext_resource type="Script" path="res://Target.gd" id="2_aueod"]
+
+[node name="Main" type="Node"]
+
+[node name="Target" type="Sprite2D" parent="."]
+position = Vector2(191, 148)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_wkngo")
+script = ExtResource("2_aueod")
